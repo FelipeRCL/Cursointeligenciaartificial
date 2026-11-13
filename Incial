@@ -1,0 +1,20 @@
+ET /documentos_teste
+
+PUT /documentos_teste
+
+POST /documentos_teste/_doc/1
+{
+  "doc_id": "documento01",
+  "title": "Balanço 2025",
+  "content": "O lucro da empresa subiu drasticamente"
+}
+
+POST /documentos_teste/_doc/1
+{
+  "doc_id": "documento02",
+  "title": "Balanço 2026",
+  "content": "O lucro da empresa subiu drasticamente"
+}
+
+GET /documentos_teste/_search
+
